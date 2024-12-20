@@ -1,0 +1,171 @@
+
+
+body {
+        margin: 0;
+    padding: 0;
+    font-family: 'Abel', sans-serif;
+    background-color: #fafbfd;
+}
+
+.meu {
+
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+
+    
+}
+
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0a0a0a;
+    padding: 10px 20px;
+    height: 50px;
+}
+
+.encabezado h1 {
+    color: #efb810;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    margin: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+
+}
+header a:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+nav {
+    text-align: center;
+    background-color: #fafbfd;
+    padding: 10px 0;
+    border-top: 1px solid white;
+}
+
+.Usuario{
+    width: 35px;
+    height: 30px;
+}
+
+
+.sesion {
+
+    display: flex;
+    color: white;
+    font-size: 13px;
+align-items: center;
+
+}
+
+hr {
+    background-color: #a502ee;
+}
+
+nav a {
+    color: grey;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Abel', sans-serif;
+    transition: color 0.3s ease;
+    position: relative;
+ 
+    gap: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+nav a:hover {
+    color: #efb810;
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+}
+
+nav a .tamaño:hover {
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+}
+
+
+
+.shop {
+    position: relative;
+    display: inline-block;
+
+}
+
+.shop .menu {
+    display: none;
+    position: absolute;
+    background-color: #fafbfd;
+    width:  100%;    
+   
+}
+
+.shop:hover .menu {
+    display: block;
+}
+
+.menu a {
+    color: grey;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+
+}
+
+.menu a:hover {
+    border-top: 1px solid grey;
+   border-bottom: 1px solid grey;
+   border-right: none;
+   border-left: none;
+    color: #efb810;
+}
+
+@media(max-width: 700px) {
+
+    .encabezado h1 {
+    color: #efb810;
+    font-family: 'Dancing Script', cursive;
+    font-size: 15px;
+    margin: 0;
+    justify-content: center;
+}
+
+    .shop .menu {
+    display: none;
+    position: absolute;
+    background-color: #fafbfd;
+    width:  100%;  
+    z-index: 10001;  
+   
+}
+
+.sesion {
+
+    display: flex;
+    color: white;
+    font-size: 0px;
+align-items: center;
+
+}
+
+
+
+ }
+
+@media (min-width: 1440px) {
+
+    .meu {
+        width: 100%;
+    }
+
+
+}

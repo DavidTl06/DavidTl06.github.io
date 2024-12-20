@@ -1,0 +1,325 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.centrado{
+    font-size: 60px;
+    font-weight: bold;
+     font-family: 'Dancing Script', cursive;
+     padding-left: 15px;
+     padding-top: 10%;
+     z-index: 10;
+}
+
+
+
+.principal {
+  display: flex;
+  justify-content: center;
+  padding-top: 130px;
+  align-content: center;
+  text-align: center;
+    transition: all 0.4s ease-in-out;
+}
+
+
+
+.principal img {
+  
+  width: 40%;
+  height: 500px;
+  border: 15px solid white;
+  border-radius: 8px;
+  box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.1);
+  transition: all 1.4s ease-in-out;
+
+}
+
+
+.principal img:hover {
+  transform: rotate(1turn);
+  width: 30%;
+  height: 300px;
+}
+
+
+
+.titulo-producto {
+  padding-top: 5%;
+  text-align: center;
+  font-size: 18px;
+  padding-bottom: 10px ;
+
+
+}
+.catalogo {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  padding-bottom: 50px;
+}
+
+.producto {
+  background: black;
+  border: 1px solid #ddd;
+  overflow: hidden;
+  padding: 15px;
+  text-align: center;
+  width: 230px;
+  transition: all 0.3s ease-in-out;
+
+}
+
+.producto img {
+width: 100%;
+  
+  
+}
+.producto a {
+  text-decoration: none;
+}
+
+.producto h3 {
+  font-size: 18px;
+  margin: 10px 0 5px;
+  color: white;
+}
+
+
+.producto p {
+  font-size: 14px;
+  color: lightgrey;
+
+}
+.producto:hover {
+  background: #fff;
+  border-radius: 0px;
+  transform: scale(1.2);
+
+
+}
+.producto:hover h3 {
+  color: black;
+ 
+
+}
+.producto:hover p {
+  color: #555;
+  font-weight: bold;
+}
+
+.tipos {
+   display: flex;
+  justify-content: center;
+  border-radius: 8px;
+ 
+  gap: 50px;
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+
+.tipos2  {
+  background: blac
+  border-radius: 8px;k;
+  text-align: center;
+  width: 400px;
+  transition: all 0.3s ease-in-out;
+}
+
+.tipos2 h3 {
+  font-size: 18px;
+  margin: 10px 0 5px;
+  color: black;
+  font-size: 30px;
+}
+
+
+.tipos2 img {
+  border-radius: 8px;
+ width: 100%;
+}
+
+.tipos2:hover {
+  border-radius: 8px;
+  transform: scale(1.2);
+}
+
+.titulo {
+
+  text-align: center;
+  font-size: 40px;
+padding-top: 40PX;
+}
+.contenedor {
+  padding-top: 50px;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  height: 500px;
+  padding-bottom: 100px;
+}
+
+
+.section {
+  width: 55%;
+  padding: 20px;
+}
+
+
+.tiende {
+  padding: 20px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 100%;
+  gap: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+article {
+
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mapa {
+
+  width: 50%;
+  height: 100%;
+}
+
+@media(max-width: 700px) {
+
+
+.logo {
+  width: 60px;
+  height: 60px;
+}
+
+
+  .principal img {
+  
+  width: 40%;
+  height: 200px;
+  border: 15px solid white;
+  border-radius: 8px;
+  box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.1);
+  transition: none;
+
+}
+.principal img:hover {
+  width: 40%;
+  height: 200px;
+  border: 15px solid white;
+  border-radius: 8px;
+  box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.1);
+}
+
+.centrado{
+    font-size: 30px;
+    font-weight: bold;
+     font-family: 'Dancing Script', cursive;
+     padding-left: 15px;
+     padding-top: 10%;
+     z-index: 10;
+}
+
+.producto h3 {
+  font-size: 10px;
+  margin: 10px 0 5px;
+  color: white;
+}
+.producto p {
+  font-size: 8px;
+  color: lightgrey;
+
+}
+.producto {
+  background: black;
+  border: 1px solid #ddd;
+  overflow: hidden;
+  padding: 8px;
+  text-align: center;
+  width: 230px;
+  transition: all 0.3s ease-in-out;
+
+}
+.tipos2  {
+  background: blac
+  border-radius: 8px;k;
+  text-align: center;
+  width: 400px;
+  transition: all 0.3s ease-in-out;
+}
+.tipos {
+   display: flex;
+  justify-content: center;
+  border-radius: 8px;
+ 
+  gap: 30px;
+  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.tipos2:hover {
+  border-radius: 8px;
+  transform: scale(1.1);
+}
+.contenedor {
+  padding-top: 50px;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 500px;
+  padding-bottom: 100px;
+}
+.titulo {
+
+  text-align: center;
+  font-size: 40px;
+padding-top: 40PX;
+padding-bottom: 200px;
+}
+
+article {
+
+  background-color: white;
+  width: 300px;
+  height: 100%;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.1);
+}
+.tiende {
+  padding: 20px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 100%;
+  gap: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.mapa {
+  padding-top: 0;
+  width: 300px;
+  height: 100%;
+  padding-left: 110px;
+  padding-bottom: 120px;
+}
+
+}

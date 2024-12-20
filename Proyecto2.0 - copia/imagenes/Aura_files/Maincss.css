@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.centrado{
+    font-size: 60px;
+    font-weight: bold;
+     font-family: 'Dancing Script', cursive;
+     padding-left: 15px;
+     padding-top: 10%;
+}
+
+
+
+.principal {
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+  text-align: center;
+  text-align: right;
+}
+
+
+
+.principal img {
+  
+  width: 40%;
+  height: 500px;
+  border: 15px solid white;
+  border-radius: 8px;
+  box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.1);
+}
+
+.titulo-producto {
+  padding-top: 5%;
+  text-align: center;
+  font-size: 18px;
+  padding-bottom: 10px ;
+
+
+}
+.catalogo {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  padding-bottom: 50px;
+}
+
+.producto {
+  background: black;
+  border: 1px solid #ddd;
+  overflow: hidden;
+  padding: 15px;
+  text-align: center;
+  width: 230px;
+  transition: all 0.3s ease-in-out;
+
+}
+
+.producto img {
+  max-width: 100%;
+  
+  
+}
+
+.producto h3 {
+  font-size: 18px;
+  margin: 10px 0 5px;
+  color: white;
+}
+
+
+.producto p {
+  font-size: 14px;
+  color: lightgrey;
+
+}
+.producto:hover {
+  background: #fff;
+  border-radius: 0px;
+  transform: scale(1.2);
+
+
+}
+.producto:hover h3 {
+  color: black;
+  text-decoration: underline;
+
+}
+.producto:hover p {
+  color: #555;
+  font-weight: bold;
+}
+
+.tipos {
+   display: flex;
+  justify-content: center;
+  border-radius: 8px;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+
+.tipos2  {
+  background: blac
+  border-radius: 8px;k;
+  text-align: center;
+  width: 400px;
+  transition: all 0.3s ease-in-out;
+}
+
+.tipos2 h3 {
+  font-size: 18px;
+  margin: 10px 0 5px;
+  color: black;
+  font-size: 30px;
+}
+
+
+.tipos2 img {
+  border-radius: 8px;
+ width: 100%;
+}
+
+.tipos2:hover {
+  border-radius: 8px;
+  transform: scale(1.2);
+}
+

@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+	background-image: url("https://img.freepik.com/vector-gratis/fondo-negro-formas-hexagonales_1017-37481.jpg");
+}
+
+.titulo h2 {
+	padding-top: 170px;
+	display: flex;
+	font-size: 40px;
+	justify-content: center;
+	color: white;
+}
+
+.hola {
+	display: flex;
+	 justify-content: center;
+  align-items: center;
+}
+.contenedor {
+  display: flex;
+  justify-content: center;
+  width: 25%;
+  padding: 20px;
+  border-radius: 8px;
+	background-color: white;
+	
+
+}
+
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contraseña {
+  display: block;
+  font-size: 12px;
+  color: #6b4c7d;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+.contraseña:hover {
+  text-decoration: underline;
+}
+
+.boton {
+  display: inline-block;
+  background-color: #000000;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  text-align: center;
+}
+
+.boton:hover {
+  background-color: #232323;
+}
+
+@media(max-width: 1024) {
+
+.hola {
+  display: flex;
+   justify-content: center;
+  align-items: center;
+  padding-bottom: 120px;
+}
+}
+
+@media(max-width: 700px) {
+.titulo h2 {
+  padding-top: 170px;
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  color: white;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.contenedor {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: white;
+  
+
+}
+
+
+
+
+} 
